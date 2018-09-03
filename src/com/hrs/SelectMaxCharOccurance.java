@@ -27,7 +27,6 @@ public class SelectMaxCharOccurance {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		HashMap<Character, Integer> hmap = new HashMap<Character, Integer>();
 		for(int i=0; i<str.length(); i++){
 			char c = str.charAt(i);
@@ -51,11 +50,6 @@ public class SelectMaxCharOccurance {
 //		
 //		tmap.put(7, i++);  //4
 //		tmap.put(5, i++);  //5
-//		tmap.put(3, i++);
-//		tmap.put(8, i++);
-//		tmap.put(6, 3);
-//		tmap.put(9, i++);
-//		tmap.put(12, i++);
 //		tmap.put(6, i++);
 //		
 //		Iterator<Entry<Integer, Integer>> it = tmap.entrySet().iterator();
